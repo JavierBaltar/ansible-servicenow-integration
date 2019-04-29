@@ -8,21 +8,20 @@
  
 
 ## Getting Started
-
-In short, you have to create the Ansible AWX endpoint and a workflow as shown below (you can also add approvals, permissions, notification, etc):
+In order to run AWX playbooks from ServiceNow you have to create the Ansible AWX endpoint and a workflow as shown below 
 
 
 ## Workflow
-### Create ServiceNow AWX endpoint
+#### Create ServiceNow AWX endpoint
 The workflow is just running a "hello world" playbook but it can trigger any playbook available. 
 
 ![](servicenow-workflow.png)
 
 
-### Order your request
+#### Order your request
 ![](servicenow-order.png)
 
-### AWX Playbook is executed 
+#### AWX Playbook is executed 
 ![](servicenow-awx.png)
 
 ## Related
