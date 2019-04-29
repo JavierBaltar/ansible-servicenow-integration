@@ -11,31 +11,20 @@
  
 
 
-
+## Getting Started
 
 In short, you have to create the Ansible AWX endpoint and a workflow as shown below (you can also add approvals, permissions, notification, etc):
 
 
 
-Wrapping all the above in a catalog item and order it.
-
-
-
-
+### Create a ServiceNow Workflow
 The workflow is just running a "hello world" playbook but it can trigger any playbook available. 
 
 ![](servicenow-workflow.png)
 
+
+### Order your request
 ![](servicenow-order.png)
-
-
-## Getting Started
-To run an Ansible Playbook with AWX, you need to configure the following items
-- Credentials: User name/password or ssh key to connect to remote component
-- Project: It contains the Ansible playbook, config, roles, templates etc
-- Inventories : What servers the playbook will run against and connection specific configuration
-- Templates: Job template to associate all of the above and run the playbook
-- Launch Templates: Launching current project
 
 ## Related
 
