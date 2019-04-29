@@ -32,6 +32,3 @@ The workflow is just running a "hello world" playbook but it can trigger any pla
 ## Authors
 
 * **Javier Baltar** - *Initial work* - [GitHub](https://github.com/JavierBaltar)
-
-
-
